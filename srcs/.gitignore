@@ -1,0 +1,6 @@
+#en el makefile. -f indica el archivo a ejecutar
+#	y -d es "detached", no se muestran los logs en la terminal
+#en el create.sh. ${SQL_USER}'@'%' y TO \`${SQL_USER}\`@'%',
+#	el % indica que este usuario puede conectarse y usar los
+#	privilegios desde cualquier host.
+#mysql -e "FLUSH PRIVILEGES;" recarga privilegios
