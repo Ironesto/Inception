@@ -4,3 +4,8 @@
 #	el % indica que este usuario puede conectarse y usar los
 #	privilegios desde cualquier host.
 #mysql -e "FLUSH PRIVILEGES;" recarga privilegios
+#Crea un usuario llamado www-data perteneciente al grupo www-data:
+#-D: Usuario del sistema.
+#-H: No crea un directorio home.
+#-S: Usuario sin acceso de inicio de sesión.
+#/usr/sbin/php-fpm7.4 -F Inicia el servidor PHP-FPM (versión 7.4) en modo "primer plano" (-F).
